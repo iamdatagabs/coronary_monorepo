@@ -1,0 +1,22 @@
+coronary-prediction-monorepo/
+├── .github/
+│   └── workflows/
+│       └── lint.yml                 # CI básico (flake8/black) para manter qualidade do código
+├── data/
+│   ├── raw/                         # Dados brutos (ex: heart.csv - ignorado no git se pesado/privado)
+│   └── processed/                   # Dados limpos e splits de treino/teste
+├── notebooks/
+│   └── colab_pipeline_runner.ipynb  # Notebook principal para execução no Google Colab
+├── src/
+│   ├── __init__.py
+│   ├── config.py                    # Hiperparâmetros, seeds e mapeamento clínico das variáveis
+│   ├── statistical_analysis.py      # Estatística inferencial (Tabela 1, p-valores, Odds Ratio)
+│   ├── ml_pipeline.py               # Pré-processamento, validação cruzada e modelos
+│   ├── clinical_metrics.py          # Sensibilidade, Especificidade, VPP, VPN, Brier Score, DCA
+│   └── visualization.py             # Gráficos em 300 DPI (ROC, Calibração, SHAP, DCA)
+├── results/                         # Saída local (ignorada no git via .gitignore)
+│   ├── figures/
+│   └── tables/
+├── .gitignore
+├── requirements.txt
+└── README.md
