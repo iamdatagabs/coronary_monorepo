@@ -4,7 +4,7 @@
 
 Este repositório contém o pipeline analítico desenvolvido para investigação de fatores de risco cardiovascular e predição de desfecho clínico (presença de estenose coronariana significativa / risco de evento agudo), integrando **estatística inferencial tradicional**, **métricas de acurácia diagnóstica** e **aprendizado de máquina interpretável**.
 
-## 📊 Base de Dados
+**Portfólio:** [Gabriel Passos](https://iamdatagabs.github.io/iamdatagabs/portfolio/) · **Código-fonte:** [GitHub](https://github.com/iamdatagabs/coronary_monorepo)\n\n> **Limitação de uso:** análise retrospectiva e experimental em base pública/didática. Não é modelo clínico validado, não estima risco individual de pacientes e não deve orientar diagnóstico, tratamento ou triagem.\n\n## 📊 Base de Dados
 - **Fonte:** Heart Attack Analysis & Prediction Dataset (UCI Cleveland / Kaggle).
 - **Amostra:** $N = 303$ pacientes, 13 variáveis preditoras clínicas/eletrocardiográficas e 1 desfecho binário (`output`).
 
